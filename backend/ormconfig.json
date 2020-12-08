@@ -1,0 +1,16 @@
+{
+  "type": "mongodb",
+  "useNewUrlParser": true,
+  "url": "mongodb://root:dHzXd4Ah26rSjD8O@cluster0-shard-00-00.hka8c.mongodb.net:27017,cluster0-shard-00-01.hka8c.mongodb.net:27017,cluster0-shard-00-02.hka8c.mongodb.net:27017/todos?ssl=true&replicaSet=atlas-tnz1g5-shard-0&authSource=admin&retryWrites=true&w=majority",
+  "ssl": true,
+  "authSource": "admin",
+  "replicaSet": "atlas-tnz1g5-shard-0",
+  "useUnifiedTopology": true,
+  "synchronize": true,
+  "logging": true,
+  "logger": "advanced-console",
+  "autoLoadEntities": true,
+  "entities": [
+    "build/entities/*.entity{.ts,.js}"
+  ]
+}
